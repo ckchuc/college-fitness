@@ -1,1 +1,1 @@
-# College-Fitness
+# college-fitness
