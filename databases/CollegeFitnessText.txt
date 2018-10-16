@@ -1,0 +1,70 @@
+-- Create Table Users
+CREATE TABLE Users
+(
+    UserID varchar(250),
+    UserPW varchar(250),
+    GoogleID varchar(250),
+    GooglePW varchar(250),
+    FacebookID varchar(250),
+    FacebookPW varchar(250)
+);
+
+-- Populate columns with data
+INSERT INTO Users(UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW)
+VALUES
+(
+    'ckchuc',
+    'password',
+    NULL,
+    NULL,
+    NULL,
+    NULL
+);
+
+-- Populate columns with data
+INSERT INTO Users(UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW)
+VALUES
+(
+    NULL,
+    NULL,
+    'ckchuc',
+    'password',
+    NULL,
+    NULL
+);
+
+-- Populate columns with data
+INSERT INTO Users(UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW)
+VALUES
+(
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    'ckchuc',
+    'password'
+);
+
+-- select statements, grabbing data from the database table 'USER'
+SELECT * FROM Users;
+SELECT UserID, UserPW FROM Users;
+SELECT UserID, UserPW FROM Users WHERE UserID = 'fdelrosario';
+
+-- updating data within 'User' table
+UPDATE Users SET UserID = 'fdelrosario' WHERE UserID = 'ckchuc';
+
+-- deleting rows where UserID = 'ckchuc'
+DELETE FROM Users WHERE GoogleID = 'ckchuc';
+
+-- Creating new table named 'ExcersiseType' storing excercise information
+CREATE TABLE ExerciseType
+(
+    Chest varchar(100),
+    Back varchar(100),
+    Shoulder varchar(100),
+    Quads varchar(100),
+    Hamstrings varchar(100),
+    Calves varchar(100),
+    Abs varchar(100)
+)
+
