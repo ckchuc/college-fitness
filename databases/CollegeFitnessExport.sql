@@ -21,57 +21,71 @@ CREATE TABLE ExerciseType
 CREATE TABLE ChestExercises
 (
     ExerciseName varchar(100),
-    ChestSet int,
-    ChestRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE BackExercises
 (
     ExerciseName varchar(100),
-    BackSet int,
-    BackRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE ShoulderExercises
 (
     ExerciseName varchar(100),
-    ShoulderSet int,
-    ShoulderRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE QuadsExercises
 (
     ExerciseName varchar(100),
-    QuadsSet int,
-    QuadsRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE HamstringsExercises
 (
     ExerciseName varchar(100),
-    HamstringsSet int,
-    HamstringsRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE CalvesExercises
 (
     ExerciseName varchar(100),
-    CalvesSet int,
-    CalvesRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE AbsExercises
 (
     ExerciseName varchar(100),
-    AbsSet int,
-    AbsRep int
+    ExerciseID varchar(100)
 );
 
 CREATE TABLE CheckComplete
 (
-    ExerciseName varchar(100),
+    BodyPart varchar(100),
+    ExerciseID varchar(100),
     NumberOfSets int,
-    NumberOfReps int
+    NumberOfReps int,
+    Staus boolean
+);
+
+-- Table: Schedule
+CREATE TABLE GymSchedule
+(
+    WeekdayHours varchar(100),
+    WeekendHours varchar(100),
+    HolidayHours varchar(100)
+);
+
+CREATE TABLE SchoolSchedule
+(
+    MondayHours varchar(100),
+    TuesdayHours varchar(100),
+    WednesdayHours varchar(100),
+    ThursdayHours varchar(100),
+    FridayHours varchar(100),
+    SaturdayHours varchar(100),
+    SundayHours varchar(100)
 );
 
 -- Table: Users
