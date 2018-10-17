@@ -18,6 +18,62 @@ CREATE TABLE ExerciseType
     Abs varchar(100)
 );
 
+CREATE TABLE ChestExercises
+(
+    ExerciseName varchar(100),
+    ChestSet int,
+    ChestRep int
+);
+
+CREATE TABLE BackExercises
+(
+    ExerciseName varchar(100),
+    BackSet int,
+    BackRep int
+);
+
+CREATE TABLE ShoulderExercises
+(
+    ExerciseName varchar(100),
+    ShoulderSet int,
+    ShoulderRep int
+);
+
+CREATE TABLE QuadsExercises
+(
+    ExerciseName varchar(100),
+    QuadsSet int,
+    QuadsRep int
+);
+
+CREATE TABLE HamstringsExercises
+(
+    ExerciseName varchar(100),
+    HamstringsSet int,
+    HamstringsRep int
+);
+
+CREATE TABLE CalvesExercises
+(
+    ExerciseName varchar(100),
+    CalvesSet int,
+    CalvesRep int
+);
+
+CREATE TABLE AbsExercises
+(
+    ExerciseName varchar(100),
+    AbsSet int,
+    AbsRep int
+);
+
+CREATE TABLE CheckComplete
+(
+    ExerciseName varchar(100),
+    NumberOfSets int,
+    NumberOfReps int
+);
+
 -- Table: Users
 CREATE TABLE Users
 (
