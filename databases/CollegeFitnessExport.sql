@@ -79,13 +79,20 @@ CREATE TABLE GymSchedule
 
 CREATE TABLE SchoolSchedule
 (
-    MondayHours varchar(100),
-    TuesdayHours varchar(100),
-    WednesdayHours varchar(100),
-    ThursdayHours varchar(100),
-    FridayHours varchar(100),
-    SaturdayHours varchar(100),
-    SundayHours varchar(100)
+    MondaySchoolHours varchar(100),
+    TuesdaySchoolHours varchar(100),
+    WednesdaySchoolHours varchar(100),
+    ThursdaySchoolHours varchar(100),
+    FridaySchoolHours varchar(100),
+    SaturdaySchoolHours varchar(100),
+    SundaySchoolHours varchar(100),
+    MondayWorkHours varchar(100),
+    TuesdayWorkHours varchar(100),
+    WednesdayWorkHours varchar(100),
+    ThursdayWorkHours varchar(100),
+    FridayWorkHours varchar(100),
+    SaturdayWorkHours varchar(100),
+    SundayWorkHours varchar(100)
 );
 
 -- Table: Users
