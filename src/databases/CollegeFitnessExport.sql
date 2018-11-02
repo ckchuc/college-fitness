@@ -105,6 +105,8 @@ CREATE TABLE Users
     FacebookID varchar(250),
     FacebookPW varchar(250)
 );
+
+-- Insert statements
 INSERT INTO Users (UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW) VALUES (NULL, NULL, NULL, NULL, 'ckchuc', 'password');
 INSERT INTO Users (UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW) VALUES (NULL, NULL, NULL, NULL, 'ckchuc', 'password');
 INSERT INTO Users (UserID, UserPW, GoogleID, GooglePW, FacebookID, FacebookPW) VALUES (NULL, NULL, NULL, NULL, 'ckchuc', 'password');
