@@ -1,4 +1,4 @@
-package com.example.codeychuc.collegefitness;
+package com.example.alsendor.college_fitness;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
