@@ -25,7 +25,7 @@ public class DatabaseAccess {
                 System.out.println("Disconnection ");
             } catch (SQLException e) {
                 e.printStackTrace();
-            }
+        }
     }
 
 }
