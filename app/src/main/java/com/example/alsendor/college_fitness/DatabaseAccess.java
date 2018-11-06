@@ -9,7 +9,7 @@ public class DatabaseAccess {
         if (conn != null)
             return conn;
         try{
-            conn = DriverManager.getConnection("jdbc:sqlite:/college-fitness/src/databases/CollegeFitness.db");
+            conn = DriverManager.getConnection("jdbc:sqlite:/databases/CollegeFitness.db");
             System.out.println("Establishing connection ");
         }
         catch(SQLException ex) {
