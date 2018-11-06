@@ -30,6 +30,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alsendor.college_fitness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WorkoutRoutineActivity"
+            android:label="@string/title_activity_workout_routine"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alsendor.college_fitness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Progress"
+            android:label="@string/title_activity_progress"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alsendor.college_fitness.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
