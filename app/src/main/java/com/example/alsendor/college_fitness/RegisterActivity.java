@@ -1,10 +1,8 @@
 package com.example.alsendor.college_fitness;
 
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -39,25 +37,18 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity{
+public class RegisterActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        final EditText etEmail = (EditText) findViewById(R.id.etEmail);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-        final Button bLogin = (Button) findViewById(R.id.bLogin);
-        final TextView RegisterLink = (TextView) findViewById(R.id.tvRegister);
-
-        RegisterLink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-             Intent registerIntent = new Intent(LoginActivity.this, RegisterActivity.class);
-             LoginActivity.this.startActivity(registerIntent);
-            }
-
-        });
+        final EditText etPassword2 = (EditText) findViewById(R.id.etPassword2);
+        final EditText etSchool = (EditText) findViewById(R.id.etSchool);
+        final Button bRegister = (Button) findViewById(R.id.bRegister);
     }
 
 }
