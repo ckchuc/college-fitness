@@ -4,16 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background= "@color/powderBlue"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This will be the main screen!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/workout_photo01" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView"
+        android:layout_alignTop="@id/textView"
+        android:layout_alignRight="@id/textView"
+        android:layout_alignBottom="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/inspirationalQuote"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
 
 </android.support.constraint.ConstraintLayout>
