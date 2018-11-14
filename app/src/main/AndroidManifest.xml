@@ -63,6 +63,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.alsendor.college_fitness.MainActivity" />
         </activity>
+        <activity
+            android:name=".Workoutspage"
+            android:label="@string/title_activity_workoutspage"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/powderBlue"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Workoutspage"
+    tools:showIn="@layout/activity_">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="134"
+        android:layout_height="64"
+        android:text="SHOULDERS"
+        android:background="@color/Gold"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="134"
+        android:layout_height="64"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="CHEST"
+        android:background="@color/Gold"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/Gold"
+        android:text="ARMS"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="134"
+        android:layout_height="64"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/Gold"
+        android:text="LEGS"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="134"
+        android:layout_height="64"
+        android:layout_marginTop="28dp"
+        android:background="@color/Gold"
+        android:text="ABS & CARDIO"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        tools:layout_editor_absoluteX="216dp" />
+
+    <Button
+        android:id="@+id/button7"
+        aandroid:layout_width="wrap_content"
+        android:layout_width="134"
+        android:layout_height="64"
+        android:layout_marginBottom="28dp"
+        android:background="@color/Gold"
+        android:text="BACK"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        tools:layout_editor_absoluteX="216dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Workouts"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+</android.support.constraint.ConstraintLayout>
