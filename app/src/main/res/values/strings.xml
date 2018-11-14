@@ -95,4 +95,5 @@
     <string name="title_activity_schedule">ScheduleActivity</string>
     <string name="title_activity_workout_routine">WorkoutRoutineActivity</string>
     <string name="title_activity_progress">Progress</string>
+    <string name="title_activity_register">Register Page</string>
 </resources>
