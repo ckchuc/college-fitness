@@ -15,6 +15,10 @@
     </string>
     <string name="title_activity_settings">Settings</string>
 
+    <!-- Strings related to main menu -->
+    <color name="powderBlue">#B0E0E6</color>
+    <string name="inspirationalQuote">Hit the gym as much as you hit the books</string>
+
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
