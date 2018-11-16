@@ -2,6 +2,7 @@ package com.example.alsendor.college_fitness;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.design.widget.BottomNavigationView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
+
+        //toolbar = supportActionBar!!
+                //val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
     }
 
     /**
