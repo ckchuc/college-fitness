@@ -64,6 +64,11 @@
                 android:value="com.example.alsendor.college_fitness.MainActivity" />
         </activity>
         <activity
+<<<<<<< HEAD
+            android:name=".Workoutspage"
+            android:label="@string/title_activity_workoutspage"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
             android:parentActivityName=".LoginActivity">
@@ -71,6 +76,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.alsendor.college_fitness.LoginActivity" />
         </activity>
+>>>>>>> fd69a55da6d8ec7e11e85e4897da49d5056e0978
     </application>
 
 </manifest>
